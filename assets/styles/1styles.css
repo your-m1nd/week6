@@ -99,6 +99,9 @@ height: 973px;
 left: 0%;
 right: 0%;
 top: 70px;
+background: #F4F3F0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
 }
 
 .section-1 {
@@ -159,11 +162,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 22px;
+color: #FFFFFF;
 background: #3A5F56;
 margin-top: 10px;
 margin-left: 145px;
 margin-bottom: 343px;
 margin-right: 487px;
+border-radius: 6px;
 }
 
 .portrait{
@@ -187,6 +192,9 @@ display: flex;
 justify-content: center;
 width: 1440px;
 top: 1043px;
+background: #F4F3F0;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
+border-radius: 16px;
 }
 
 .services{
@@ -238,12 +246,14 @@ margin-top: 40px;
 margin-bottom: 100px;
 margin-left: 136px;
 margin-right: 136px;
+background: radial-gradient(50% 50% at 50% 50%, rgba(58, 95, 86, 0.376) 0%, rgba(58, 95, 86, 0) 100%);
 }
 
 .wedding-photography, .sports-photography,.portrait-photography, .architecture-photography,.animal-photography, .food-photography, .nature-photography{
 background: #F4F3F0;
 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
 border-radius: 16px;
+
 }
 
 .wedding-icon, .sports-icon, .portrait-icon, .architecture-icon, .animal-icon, .food-icon, .nature-icon {
@@ -276,6 +286,7 @@ color: #292C32;
 display: flex;
 justify-content: center;
 width: 1440px;
+background: #F4F3F0;
 }
 
 .preset-store {
@@ -283,6 +294,7 @@ width: 600px;
 margin-left: 300px;
 border-radius: 0px;
 margin-right: 300px;
+
 }
 
 .wrapper-preset-pack {
@@ -295,6 +307,7 @@ margin-top: 40px;
 margin-bottom: 152px;
 margin-left: 136px;
 margin-right: 136px;
+background: radial-gradient(50% 50% at 50% 50%, rgba(219, 52, 59, 0.296) 0%, rgba(219, 52, 59, 0) 100%);
 }
 
 .h5-preset {
@@ -357,6 +370,7 @@ text-align: center;
 
 .link-preset {
 grid-column: 2/3;
+
 } 
 
 .link-preset-store {
@@ -372,6 +386,8 @@ height: 259px;
 grid-template-columns: 1fr 1fr;
 gap: 200px;
 margin-left: 500px;
+background: #F4F3F0;
+border-radius: 16px;
 }
 
 .contact-button {
@@ -385,3 +401,155 @@ line-height: 28px;
 text-align: center;
 color: #FFFFFF;
 }
+
+footer {
+background-color: #292C32;
+}
+
+.footer-menu-link, .footer-menu-item-1, .footer-menu-item-2, .footer-menu-item-3,.footer-menu-item-4, .footer-menu-item-5,.footer-menu-item-6, .footer-menu-form {
+list-style-type: none; 
+
+}
+
+.footer-item {
+display: grid;
+}
+
+.footer-logo {
+display: flex;
+justify-content: center; 
+}
+
+.img-footer-logo {
+display: flex;
+}
+
+.footer-nav {
+display: grid;
+width: 1000px;
+height: 410px;
+}
+
+.footer-navigation {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr 1fr;
+}
+
+.wrapper-footer {
+background: #292C32;
+border-radius: 0px;
+}
+
+.footer-menu-title {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #B87D58;
+}
+
+.footer-navigation {
+display: grid;
+}
+
+.footer-link {
+text-decoration: none;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+
+.footer-menu-pages {
+display: grid;
+}
+
+.footer-menu-preset-packs {
+display: grid;
+grid-column: 2/3;
+grid-row: 1/2;
+}
+
+.footer-menu-utility-pages {
+display: grid;
+grid-column: 3/4;
+grid-row: 1/2;
+}
+
+.footer-menu-newsletter {
+display: grid;
+grid-column: 4/5;
+grid-row: 1/2;
+}
+
+.footer-menu-store-categories {
+display: grid;
+grid-column: 1/2;
+grid-row: 2/3;
+}
+
+.footer-menu-business-areas {
+display: grid;
+grid-column: 2/3;
+grid-row: 2/3;
+}
+
+
+.submit {
+height: 30px;
+background-color: #292C32; 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FAFAFC;
+}
+
+.newsletter-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FAFAFC;
+}
+
+.input-newsletter-subscribe {
+width: 300px;
+background: #F9FAFB;
+border: 1px solid #E5E7EB;
+border-radius: 8px;
+}
+
+.newsletter-subscribe {
+width: 458px;
+height: 53px;
+}
+
+.footer-social-media {
+display: grid;
+grid-columns: 1/2;
+}
+
+.footer-info {
+display: grid;
+color: #FFFFFF;
+grid-row: 1/1;
+}
+
+.social-media {
+display: grid;
+grid-column: 2;
+}
+
+.ul-social-media-icons {
+list-style-type: none; 
+}
+
