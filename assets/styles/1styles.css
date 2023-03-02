@@ -535,7 +535,7 @@ height: 53px;
 
 .footer-social-media {
 display: grid;
-grid-columns: 1/2;
+grid-column: 1/2;
 }
 
 .footer-info {
